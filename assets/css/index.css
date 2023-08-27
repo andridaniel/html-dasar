@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #0F3D3E;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.judul-index {
+  color: white;
+  margin-bottom: 3%;
+}
+
+.judul-index span {
+  color: orange;
+}
+
+.container button{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* heading */
+.btnheading {
+    display: inline-block;
+    padding: 13px 30px;
+    width: 40%;
+    font-size: 18px;
+    background-color: #E2DCC8;
+    color: #61677A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btnheading:hover {
+    background-color: #252525;
+  }
+
+/* fromatting */
+.btnformatting {
+    margin-top: 2%;
+    display: inline-block;
+    padding: 13px 30px;
+    width: 40%;
+    font-size: 18px;
+    background-color:#E2DCC8;
+    color: #61677A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btnformatting:hover {
+    background-color: #252525;
+  }
+  
+  /* list */
+.btnlist {
+    margin-top: 2%;
+    display: inline-block;
+    padding: 13px 30px;
+    width: 40%;
+    font-size: 18px;
+    background-color: #E2DCC8;
+    color: #61677A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btnlist:hover {
+    background-color: #252525;
+  }
+
+  /* table */
+.btntable {
+    margin-top: 2%;
+    display: inline-block;
+    padding: 13px 30px;
+    width: 40%;
+    font-size: 18px;
+    background-color: #E2DCC8;
+    color: #61677A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btntable:hover {
+    background-color: #252525;
+  }
+
+  /* iamage */
+.btnimage {
+    margin-top: 2%;
+    display: inline-block;
+    padding: 13px 30px;
+    width: 40%;
+    font-size: 18px;
+    background-color: #E2DCC8;
+    color: #61677A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btnimage:hover {
+    background-color: #252525;
+  }
+
