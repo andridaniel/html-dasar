@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <title>form html</title>
+</head>
+<body>
+
+    <div class="fContainer">
+        <nav class="wrapper">
+            <ul class="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="txt-formatting.html">Formatting</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="images.html">Image</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Form pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h1>
+
+    <form action="" method="post">
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required><br>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="Email aktif" required><br>
+        <br>
+        <label for="no-hp">No HP</label><br>
+        <input type="text" id="no-hp" name="no-hp" placeholder="No HP aktif" required><br>
+        <br><br>
+
+        <label for="jenis-kelamin">Jenis kelamin</label><br>
+        <input type="radio" id="jenis-kelamin" name="jenis-kelamin" value="laki-laki" >
+        <label for="laki-laki">Laki-laki</label>
+        <br>
+        <input type="radio" id="jenis-kelamin" name="jenis-kelamin" value="perempuan" >
+        <label for="perempuan">Perempuan</label>
+        <br><br>
+
+        <label for="prodi">Prodi</label><br>
+        <select name="prodi" id="prodi">
+            <option value="pilihan">Pilihan</option>
+            <option value="teknologi-informasi">Teknologi-informasi</option>
+            <option value="sistem-informasi">Sistem-informasi</option>
+            <option value="sistem-komputer">Sistem-komputer</option>
+            <option value="informatika">informatika</option>
+            <option value="ekonomi">Ekonomi</option>
+        </select>
+        <br>
+
+        <label for="hobi">Hobi</label><br>
+            <input type="checkbox" id="membaca" name="hobi" value="membaca">
+            <label for="membaca">Membaca</label><br>
+            <input type="checkbox" id="menulis" name="hobi" value="menulis">
+            <label for="menulis">Menulis</label><br>
+            <input type="checkbox" id="menyanyi" name="hobi" value="menyanyi">
+            <label for="menyanyi">Menyanyi</label><br>
+            <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+            <label for="olahraga">Olahraga</label><br>
+        <br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="2" placeholder="alamat lengkap"></textarea>
+        <br><br>
+
+        <label for="foto-diri">Foto diri</label><br>
+        <input type="file" name="foto-diri" id="foto-diri" accept="image/jpg, image/png"><br>
+
+        <input type="submit" value="Daftar">
+
+
+
+
+
+    </form>
+</body>
+</html>
