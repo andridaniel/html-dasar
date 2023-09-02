@@ -25,10 +25,28 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+/* form login */
+.btnform-login {
+  display: inline-block;
+  padding: 13px 30px;
+  width: 40%;
+  font-size: 18px;
+  background-color: #E2DCC8;
+  color: #61677A;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnheading:hover {
+  background-color: #252525;
+}
+
 /* heading */
 .btnheading {
     display: inline-block;
     padding: 13px 30px;
+    margin-top: 2%;
     width: 40%;
     font-size: 18px;
     background-color: #E2DCC8;
@@ -126,6 +144,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 5%;
   }
   .btnimage:hover {
     background-color: #252525;
