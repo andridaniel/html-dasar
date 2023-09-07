@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
     background-color: #0F3D3E;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -25,8 +25,8 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-/* form login */
-.btnform-login {
+/* gallery product */
+.btnproduct {
   display: inline-block;
   padding: 13px 30px;
   width: 40%;
@@ -38,7 +38,25 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.btnheading:hover {
+.btnproduct:hover {
+  background-color: #252525;
+}
+
+/* form login */
+.btnform-login {
+  margin-top: 2%;
+  display: inline-block;
+  padding: 13px 30px;
+  width: 40%;
+  font-size: 18px;
+  background-color: #E2DCC8;
+  color: #61677A;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnform-login:hover {
   background-color: #252525;
 }
 

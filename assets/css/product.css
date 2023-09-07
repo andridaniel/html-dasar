@@ -1,0 +1,55 @@
+:root{
+    /* warna */
+    --warna-background :#0F3D3E;
+    --warna-teks :#fda800;
+    --warna-background-image :#f8e5be;
+
+    /* nilai konstan */
+    --ukuran-margin-buttom : 2%;
+    --ukuran-margin-top : 2%;
+    --ukuran-margin-gambar : 10px;
+    --ukuran-width-gambar : 200px;
+    --ukuran-height-gambar : 150px;
+    --ukuran-border-radius : 4px;
+    --ukuran-padding-gambar : 10px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--warna-background);
+}
+
+h2 {
+    color: var(--warna-teks);
+    text-align: center;
+    margin-top: var(--ukuran-margin-top);
+    margin-bottom: var(--ukuran-margin-buttom);
+}
+
+.produk{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.gambar {
+    background-color: var(--warna-background-image);
+    margin: var(--ukuran-margin-gambar);
+    border-radius: var(--ukuran-border-radius);
+    padding-top: var(--ukuran-padding-gambar);
+    padding-bottom: var(--ukuran-padding-gambar);
+}
+
+.produk img {
+    width: var(--ukuran-width-gambar);
+    height: var(--ukuran-height-gambar);
+    border-radius: var(--ukuran-border-radius);
+    margin-top: var(--ukuran-margin-top);
+}

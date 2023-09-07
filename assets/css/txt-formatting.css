@@ -20,12 +20,12 @@ body {
 .judul-formatting{
     margin-bottom: 3%;
     color: white;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .judul-formatting span{
     color: orange;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* css navbar  */
