@@ -1,0 +1,218 @@
+:root{
+    /* warna */
+    --warna-background :#0F3D3E;
+    --warna-teks :#fda800;
+    --warna-teks-hitam : #000;  
+    --warna-teks-putih : #fff;  
+    --warna-background-image :#f8e5be;
+
+    /* nilai konstan */
+    --ukuran-margin-buttom : 2%;
+    --ukuran-margin-top : 5%;
+    --ukuran-margin-left-gambar : 60px;
+    --ukuran-margin-right-gambar : 60px;
+    --ukuran-margin-gambar : 5px;
+    --ukuran-width-gambar : 200px;
+    --ukuran-height-gambar : 150px;
+    --ukuran-border-radius : 4px;
+    --ukuran-padding-gambar : 10px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--warna-background);
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bg-landing.jpg);
+}
+
+.bg-image {
+    padding: 30px;
+}
+
+.text-about {
+    margin-left: 40%;
+    font-size: 30px;
+    color: var(--warna-teks);
+    margin-top: 7%;
+    padding-top: 4%;
+}
+
+.about-utama {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.about {
+    color: var(--warna-background-image);
+    display: flex;
+    padding: 20px;
+}
+
+.about img {
+    padding: 20px;
+    margin-right: 10%;
+    
+}
+
+.about p {
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.text-product {
+    text-align: center;
+    color: var(--warna-teks);
+    font-size: 30px;
+    margin-top: 7%;
+    padding: 4%;
+}
+
+.product-utama {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    color: var(--warna-background-image);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+
+.contact #nama {
+    width: 350px;
+    height: 30px;
+}
+
+.contact #email {
+    width: 350px;
+    height: 30px;
+}
+
+.contact #pesan {
+    width: 350px;
+    height: 80px;
+}
+
+.submit {
+    width: 200px;
+    height: 30px;
+    background-color: var(--warna-background-image);
+}
+
+input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+}
+
+.text-contact {
+    text-align: center;
+    color: var(--warna-teks);
+    font-size: 30px;
+    margin-bottom: 3%;
+    margin-top: 7%;
+}
+
+.produk{
+    display: grid;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 4%;
+    padding-bottom: 20px;
+
+}
+
+.carousel-slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+
+.gambar {
+    background-color: var(--warna-background-image);
+    margin-left: var(--ukuran-margin-left-gambar);
+    margin-right: var(--ukuran-margin-right-gambar);
+    border-radius: var(--ukuran-border-radius);
+    padding-top: var(--ukuran-padding-gambar);
+    padding-bottom: var(--ukuran-padding-gambar);
+}
+
+.produk img {
+    width: var(--ukuran-width-gambar);
+    height: var(--ukuran-height-gambar);
+    border-radius: var(--ukuran-border-radius);
+    margin-top: var(--ukuran-margin-top);
+}
+
+#prevBtn, #nextBtn {
+    transform: translateY(-20%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.btn {
+    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+}
+
+/* css navbar  */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #222;
+    opacity: 0.8;
+    height: 65px;
+    
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 15px;
+    
+}
+
+.navigation li a {
+     text-decoration: none;
+     color: white;
+     text-align: center;
+}
+
+li a:hover{
+    color: orange;
+}
