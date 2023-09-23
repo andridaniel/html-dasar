@@ -25,8 +25,28 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+
+/* tugas-10 js product API */
+.btntugas10 {
+  display: inline-block;
+  padding: 13px 30px;
+  width: 40%;
+  font-size: 18px;
+  background-color: #E2DCC8;
+  color: #61677A;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnproduct:hover {
+  background-color: #252525;
+}
+
+
 /* tugas-9 js product array */
 .btntugas9 {
+  margin-top: 2%;
   display: inline-block;
   padding: 13px 30px;
   width: 40%;
